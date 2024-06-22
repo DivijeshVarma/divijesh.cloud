@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:40rce code pro0,700');
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700");
 html {
   overflow-x: hidden;
 }
@@ -7,7 +7,7 @@ body {
   background: #fff;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'source code pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -19,17 +19,14 @@ body {
   overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   font-size: 38px;
   font-weight: 700;
-  font-family: 'source code pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .script-font {
-  font-family: 'Candara Light', cursive; /*original font 'Shadows Into Light'*/
+  font-family: 'Shadows Into Light', cursive;
 }
 
 a {
@@ -49,20 +46,18 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: 'source code pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin: 0px;
   font-size: 14px;
 }
 
-ul,
-ol {
+ul, ol {
   list-style: outside none none;
   margin: 0;
   padding: 0;
 }
 
-ul li,
-ol li {
+ul li, ol li {
   list-style: none;
 }
 
@@ -104,9 +99,7 @@ ol li {
 }
 
 .section-title {
-  /*color: #252525;*/
-  color: inherit;
-  text-transform: uppercase;
+  color: #252525;
   font-size: 38px;
   text-align: center;
   letter-spacing: 1px;
@@ -140,9 +133,6 @@ ol li {
 }
 
 .btn-common {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Add this line */
   background-color: #00b4d9;
   position: relative;
   z-index: 1;
@@ -152,18 +142,18 @@ ol li {
   color: #fff;
   background-color: #21cff3;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
 }
 
 .btn-danger:hover {
   background-color: #f55262;
   border-color: #f55262;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
 }
 
 .btn-border {
@@ -193,8 +183,7 @@ button:focus {
   outline: none !important;
 }
 
-.icon-close,
-.icon-check {
+.icon-close, .icon-check {
   color: #00b4d9;
 }
 
@@ -228,19 +217,19 @@ button:focus {
 }
 
 .social-icon li .twitter:hover {
-  background: #4a9cec;
+  background: #4A9CEC;
 }
 
 .social-icon li .instagram:hover {
-  background: #d6274d;
+  background: #D6274D;
 }
 
 .social-icon li .linkedin:hover {
-  background: #1260a2;
+  background: #1260A2;
 }
 
-.social-icon li .github:hover {
-  background: #1260a2;
+.social-icon li .google:hover {
+  background: #CE332A;
 }
 
 /* ScrollToTop */
@@ -269,8 +258,7 @@ a.back-to-top i {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
-a.back-to-top:hover,
-a.back-to-top:focus {
+a.back-to-top:hover, a.back-to-top:focus {
   text-decoration: none;
 }
 
@@ -415,7 +403,7 @@ a.back-to-top:focus {
 
 .timeline li .line-title {
   font-size: 16px;
-  line-height: 14px; /*this was originally 6px, had to increase because text in multiple lines*/
+  line-height: 6px;
 }
 
 .timeline li span {
@@ -440,7 +428,7 @@ a.back-to-top:focus {
 }
 
 .timeline li:before {
-  content: '';
+  content: "";
   border: solid 2px;
   width: 8px;
   height: 8px;
@@ -589,7 +577,7 @@ a.back-to-top:focus {
 }
 
 .dropdown-menu:before {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   bottom: 100%;
@@ -649,8 +637,7 @@ a.back-to-top:focus {
   color: #00b4d9;
 }
 
-.dropdown-item.active,
-.dropdown-item:active {
+.dropdown-item.active, .dropdown-item:active {
   background: transparent;
 }
 
@@ -705,7 +692,7 @@ a.back-to-top:focus {
     display: block;
   }
   .slicknav_nav .active a {
-    background: #e91e63;
+    background: #E91E63;
     color: #fff;
   }
   .slicknav_nav a:hover,
@@ -721,7 +708,7 @@ a.back-to-top:focus {
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
-  background: url(../img/hero-area2.jpg) no-repeat;
+  background: url(../img/hero-area.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -790,7 +777,7 @@ a.back-to-top:focus {
 /* ==========================================================================
   Portfolio Section
    ========================================================================== */
-#portfolio {
+#portfolios {
   background: #f2f2f2;
 }
 
@@ -798,9 +785,8 @@ a.back-to-top:focus {
   padding: 10px;
 }
 
-#portfolio .portfolio-item .shot-item {
+#portfolios .portfolio-item .shot-item {
   margin: 0px;
-  padding: 20px;
 }
 
 #portfolio .mix {
@@ -913,14 +899,13 @@ a:not([href]):not([tabindex]) {
   color: #fff;
 }
 
-a:not([href]):not([tabindex]):focus,
-a:not([href]):not([tabindex]):hover {
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
 /* Services Item */
 .services {
-  background: #f0f0f0;
+  background: #F0F0F0;
 }
 
 .services-item {
@@ -986,13 +971,12 @@ a:not([href]):not([tabindex]):hover {
   outline: none;
 }
 
-.btn.disabled,
-.btn:disabled {
+.btn.disabled, .btn:disabled {
   opacity: 1;
 }
 
 .contact-form-area {
-  background: #f0f0f0; /* was #fff*/
+  background: #fff;
   box-shadow: 0 0 30px #ededed;
   padding: 60px 40px;
 }
@@ -1006,7 +990,6 @@ a:not([href]):not([tabindex]):hover {
   padding: 4px;
   border: 1px solid #e1e1e1;
   margin-top: 30px;
-  background-color: #fff;
 }
 
 .footer-right-contact .single-contact {
@@ -1072,7 +1055,7 @@ a:not([href]):not([tabindex]):hover {
 
 /* Footer Area Start */
 .footer-area {
-  background: #1c1c20;
+  background: #1C1C20;
 }
 
 .footer-area .footer-text p {
@@ -1144,138 +1127,4 @@ a:not([href]):not([tabindex]):hover {
 
 #copyright p a:hover {
   color: #00b4d9;
-}
-
-/*styles I have added:*/
-
-#contact .text-center ul {
-  text-align: left;
-}
-
-#contact .text-center h2 {
-  text-align: left;
-  font-size: 16px;
-  text-transform: none;
-}
-
-.img-fluid {
-  padding: 5rem;
-}
-
-.shot-item .line-title {
-  font-size: 16px;
-}
-
-.shot-item .content-text {
-  padding: 9px 0px;
-}
-
-.shot-item .tech {
-  padding-top: 10px;
-  font-family: courier;
-}
-
-.footer-right-area {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
-
-.contact-block div {
-  border: #000;
-}
-
-#contact .col-md-6 {
-  border: #000;
-}
-
-.check-list {
-  position: relative;
-  background-color: #fff;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.checklist-title {
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-left: 25px;
-  padding-bottom: 10px;
-}
-
-.check-list .checklist-item li {
-  position: relative;
-  list-style-type: none;
-  padding-left: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.check-list .checklist-item li:before {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: -2px;
-  width: 5px;
-  height: 11px;
-  border-width: 0 2px 2px 0;
-  border-style: solid;
-  border-color: #00a8a8;
-  transform-origin: bottom left;
-  transform: rotate(45deg);
-}
-
-#skills {
-  background-color: #f2f2f2;
-}
-
-#skills .container {
-  padding-bottom: 20px;
-}
-
-
-.overlay {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-li::before {
-  margin-left: 10px;
-}
-
-/*for large screen only
-@media screen and (min-width: 768px) {
-  .icons .btn-common {
-    margin-left: 5rem;
-  }
-}
-*/
-
-.contact-box {
-  border: 1px solid #00b4d9;
-  border-spacing: 20px;
-  padding: 20px;
-  margin-top: 6rem;
-  border-width: 2px;
-}
-
-.contact-title {
-  font-family: 'Candara Light', cursive;
-}
-
-.class {
-  overflow: hidden;
-}
-
-.jamk .jamk-list li {
-  padding: 0px;
-}
-
-.timeline .jamk-list li:before {
-  border-color: black;
-}
-
-.custom-margin {
-  margin-top: 20px; 
 }

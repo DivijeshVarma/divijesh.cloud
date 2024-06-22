@@ -20,9 +20,6 @@
   .services-item {
     margin-bottom: 20px;
   }
-  .portfolio-item {
-    margin-bottom: 20px;
-  }
 }
 
 /* only small tablets */
@@ -35,9 +32,6 @@
     font-size: 16px;
   }
   .services-item {
-    margin-bottom: 20px;
-  }
-  .portfolio-item {
     margin-bottom: 20px;
   }
   .counter-section .counter p {
